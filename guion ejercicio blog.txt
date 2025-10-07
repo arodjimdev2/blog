@@ -1,0 +1,57 @@
+# Ejercicio: Blog en HTML5 (sólo HTML, sin CSS)
+
+
+BLOG PERSONAL EN HTML5
+
+**Estructura de carpetas y archivos:
+carpeta: img  y subcarpetas organizando todas las imágenes.
+páginas html:
+index.html (Página principal del blog)
+entrada1.html, entrada2.html, entrada3.html, entrada4.html, entrada5.html (cada entrada del blog).
+
+**Requisitos generales:
+Todas las páginas deben tener header, main y footer.
+
+El footer debe aparecer en todas las páginas con el nombre del autor y el año.
+
+Cada entrada tiene que tener un formulario básico de contacto. (nombre, email, mensaje, enviar)
+
+**Página principal (index.html):
+Título del blog en el encabezado.
+
+**Debajo, una lista de 5 entradas. Cada entrada debe contener:
+Un título.
+Una imagen representativa.
+Un párrafo introductorio.
+Un enlace con el texto "Leer más..." que lleve a la página completa de esa entrada.
+
+**Cada entrada individual (entradaX.html):
+
+  *Debe mostrar:
+El título completo de la entrada.
+Una imagen principal.
+3 párrafos de contenido (texto de ejemplo).
+Imágenes que den contenido a la entrada.
+
+**Debajo del contenido, enlaces tipo icono enlazado para:
+Volver a la Página principal.
+Ir a la entrada anterior y la siguiente (para poder navegar entre todas).
+
+**Elementos a utilizar:
+Etiquetas semánticas (header, nav, main, article, footer).
+Texto y formato (títulos <h1> - <h3>, párrafos <p>, enlaces <a>).
+Multimedia.
+Enlaces internos para la navegación.
+
+
+==========================================================
+
+## Estructura
+index.html (página principal con 5 entradas y enlaces "Leer más...")
+entrada1.html ... entrada5.html (páginas individuales con navegación)
+/img (carpeta para imágenes; puedes añadir tus propias fotos con estos nombres: entrada1.jpg, ..., entrada5.jpg)
+
+## Instrucciones
+1. Abre index.html en tu navegador para empezar.
+2. Sustituye títulos, textos e imágenes por contenido propio.
+3. Comprueba que la navegación funciona: de cada entrada se puede ir a la anterior, siguiente y volver al inicio.
